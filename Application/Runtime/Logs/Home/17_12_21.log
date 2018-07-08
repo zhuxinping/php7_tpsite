@@ -1,0 +1,9 @@
+[ 2017-12-21T08:50:18+08:00 ] 127.0.0.1 /webapp/index.php/home/user/login
+ERR: 非法操作:login
+
+[ 2017-12-21T08:50:49+08:00 ] 127.0.0.1 /webapp/index.php/home/manager/login
+ERR: 无法加载控制器:Manager
+
+[ 2017-12-21T08:51:22+08:00 ] 127.0.0.1 /webapp/index.php/home/user/login
+ERR: 非法操作:login
+

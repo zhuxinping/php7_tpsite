@@ -1,0 +1,11 @@
+[ 2017-12-22T09:01:06+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007758s ]
+

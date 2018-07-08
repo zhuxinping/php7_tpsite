@@ -1,0 +1,1 @@
+a:7:{i:0;s:3:"pid";i:1;s:6:"typeid";i:2;s:5:"pname";i:3;s:5:"price";i:4;s:6:"pcount";s:3:"_pk";s:3:"pid";s:5:"_type";a:5:{s:3:"pid";s:7:"int(11)";s:6:"typeid";s:7:"int(11)";s:5:"pname";s:12:"varchar(100)";s:5:"price";s:11:"float(10,2)";s:6:"pcount";s:7:"int(11)";}}

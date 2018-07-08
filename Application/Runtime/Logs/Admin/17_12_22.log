@@ -1,0 +1,778 @@
+[ 2017-12-22T09:01:12+08:00 ] 127.0.0.1 /index.php/admin/goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SELECT * FROM `tp_goodsinfo`  [ RunTime:0.0251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-12-22T09:01:19+08:00 ] 127.0.0.1 /index.php/admin/goods/ajaxgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+ERR: 非法操作:ajaxgoods
+
+[ 2017-12-22T09:01:34+08:00 ] 127.0.0.1 /index.php/admin/ajax/ajaxgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-12-22T09:01:49+08:00 ] 127.0.0.1 /index.php/admin/ajax/%7B:U(%22ajax/addgoods%22)%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+ERR: 非法操作:{:U("ajax
+
+[ 2017-12-22T09:01:50+08:00 ] 127.0.0.1 /index.php/admin/ajax/%7B:U(%22ajax/addgoods%22)%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+ERR: 非法操作:{:U("ajax
+
+[ 2017-12-22T09:01:57+08:00 ] 127.0.0.1 /index.php/admin/ajax/ajaxgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2017-12-22T09:01:58+08:00 ] 127.0.0.1 /index.php/admin/ajax/ajaxgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-12-22T09:02:15+08:00 ] 127.0.0.1 /index.php/admin/ajax/%7B:U(%22ajax/addgoods%22)%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+ERR: 非法操作:{:U("ajax
+
+[ 2017-12-22T09:03:03+08:00 ] 127.0.0.1 /index.php/admin/ajax/ajaxgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-12-22T09:03:13+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('2','无人汽车','5000000000','1') [ RunTime:0.0359s ]
+
+[ 2017-12-22T09:03:17+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('2','无人汽车','5000000000','1') [ RunTime:0.0358s ]
+
+[ 2017-12-22T09:03:19+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('2','无人汽车','5000000000','1') [ RunTime:0.0383s ]
+
+[ 2017-12-22T09:03:20+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('2','无人汽车','5000000000','1') [ RunTime:0.0324s ]
+
+[ 2017-12-22T09:03:25+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('2','无人汽车','5000000000','1') [ RunTime:0.0306s ]
+
+[ 2017-12-22T09:04:20+08:00 ] 127.0.0.1 /index.php/admin/ajax/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SELECT * FROM `tp_goodsinfo`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-12-22T09:06:02+08:00 ] 127.0.0.1 /index.php/Admin/Ajax/goodsupdate/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-12-22T09:08:02+08:00 ] 127.0.0.1 /index.php/Admin/Ajax/goodsupdate/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: UPDATE `tp_goodsinfo` SET `typeid`='3',`pname`='MACPro',`price`='35000',`pcount`='2' WHERE `pid` = 1 [ RunTime:0.0492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015650s ]
+NOTIC: [8] Undefined variable: fd D:\php7tpsite\Application\Runtime\Cache\Admin\35fa5318af979f1a4c174b21d76c04a2.php 第 23 行.
+NOTIC: [8] Undefined variable: fd D:\php7tpsite\Application\Runtime\Cache\Admin\35fa5318af979f1a4c174b21d76c04a2.php 第 27 行.
+NOTIC: [8] Undefined variable: fd D:\php7tpsite\Application\Runtime\Cache\Admin\35fa5318af979f1a4c174b21d76c04a2.php 第 31 行.
+NOTIC: [8] Undefined variable: fd D:\php7tpsite\Application\Runtime\Cache\Admin\35fa5318af979f1a4c174b21d76c04a2.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009004s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-12-22T09:08:03+08:00 ] 127.0.0.1 /index.php/Admin/Ajax/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SELECT * FROM `tp_goodsinfo`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2017-12-22T09:08:11+08:00 ] 127.0.0.1 /index.php/Admin/Ajax/goodsdel/pid/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: DELETE FROM `tp_goodsinfo` WHERE `pid` = 14 [ RunTime:0.0324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-12-22T09:08:12+08:00 ] 127.0.0.1 /index.php/Admin/Ajax/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SELECT * FROM `tp_goodsinfo`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-12-22T09:08:22+08:00 ] 127.0.0.1 /index.php/Admin/Ajax/goodsdel/pid/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: DELETE FROM `tp_goodsinfo` WHERE `pid` = 13 [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-12-22T09:08:23+08:00 ] 127.0.0.1 /index.php/Admin/Ajax/goodslist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SELECT * FROM `tp_goodsinfo`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-12-22T11:46:53+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('3','机器人瓦力','5000000','2') [ RunTime:0.0327s ]
+
+[ 2017-12-22T11:49:40+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','iphone8','4588','100') [ RunTime:0.0816s ]
+
+[ 2017-12-22T12:35:20+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','iphone8','4588','100') [ RunTime:0.0357s ]
+
+[ 2017-12-22T12:35:22+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','iphone8','4588','100') [ RunTime:0.0325s ]
+
+[ 2017-12-22T12:35:24+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','iphone8','4588','100') [ RunTime:0.0314s ]
+
+[ 2017-12-22T12:35:32+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','iphone8P','6588','100') [ RunTime:0.0306s ]
+
+[ 2017-12-22T12:39:24+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:44:35+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:44:55+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:44:58+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:46:49+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:47:07+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:47:10+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:47:30+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:47:45+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:47:54+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:47:57+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:48:11+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:48:26+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('2','卫星','121212121','1') [ RunTime:0.0290s ]
+
+[ 2017-12-22T12:48:30+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('2','卫星','121212121','1') [ RunTime:0.0354s ]
+
+[ 2017-12-22T12:48:35+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:49:28+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:50:18+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:51:59+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:52:51+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','人','1212','1') [ RunTime:0.0331s ]
+
+[ 2017-12-22T12:54:28+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:55:32+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:58:22+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:58:31+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-12-22T12:59:27+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星' LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+
+[ 2017-12-22T12:59:37+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星' LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+
+[ 2017-12-22T12:59:37+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星' LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+
+[ 2017-12-22T12:59:43+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星' LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+
+[ 2017-12-22T13:00:18+08:00 ] 127.0.0.1 /index.php/admin/ajax/addgoods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星' LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+ERR: 1062:Duplicata du champ '22' pour la clef 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_goodsinfo` (`pid`,`typeid`,`pname`,`price`,`pcount`) VALUES ('22','2','卫星','100000000','1')
+
+[ 2017-12-22T13:02:59+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-12-22T13:03:37+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星1' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('5','泰牛php','1221','1') [ RunTime:0.0304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-12-22T13:04:32+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星2' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','卫星2','1221','1') [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-12-22T13:04:49+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-12-22T13:05:02+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '卫星3' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-12-22T13:08:11+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-12-22T13:13:57+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-12-22T13:14:31+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '斯科拉啊' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_goodsinfo` (`typeid`,`pname`,`price`,`pcount`) VALUES ('1','斯科拉啊','1','1') [ RunTime:0.0277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-12-22T13:14:33+08:00 ] 127.0.0.1 /index.php/admin/ar/goodscreate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [8] Undefined index: validate D:\php7tpsite\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `tp_goodsinfo` WHERE `pname` = '斯科拉啊' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-12-22T13:38:44+08:00 ] 127.0.0.1 /index.php/Admin/Ar/goodslist
+ERR: 1064:Erreur de syntaxe près de 'esc' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `tp_goodsinfo` ORDER BY price esc 
+

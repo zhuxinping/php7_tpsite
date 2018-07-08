@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+	body{
+		font-size:12px;
+	}
+</style>
+
+</head>
+
+<body>
+  <table width='1000' align="center" border="1" bordercolor='blue' style='border-collapse: collapse;'>
+  <tr>
+    <th>编号</th>
+    <th>类型编号</th>   
+    <th>产品名称</th>
+    <th>产品价格</th>
+    <th>产品数量</th>
+    <th>修改</th>
+    <th>删除</th>   
+  </tr>
+  <volist name='re' id='val'>
+    <tr>
+      <td><{$val.pid}></td>
+      <td><{$val.typeid}></td>
+      <td><{$val.pname}></td>
+      <td><{$val.price}></td> 
+      <td><{$val.pcount}></td> 
+      <td><a href='__CONTROLLER__/goodsupdate/pid/<{$val.pid}>'>修改</a></td>
+      <td><a href='__CONTROLLER__/goodsdel/pid/<{$val.pid}>'>删除</a></td>
+    </tr>
+  </volist>
+
+  </table>
+  
+</body>
+</html>

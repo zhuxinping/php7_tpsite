@@ -1,0 +1,27 @@
+[ 2017-12-20T18:23:03+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Manager/loginc.html
+
+[ 2017-12-20T18:23:20+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Manager/loginc.html
+
+[ 2017-12-20T18:24:08+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Manager/loginc.html
+
+[ 2017-12-20T18:30:34+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: Think\Controller:displayy方法不存在！
+
+[ 2017-12-20T18:32:28+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Manager/logind.html
+
+[ 2017-12-20T18:36:00+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Home/user/showuser.html
+
+[ 2017-12-20T18:37:18+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Home/user/showuser.html
+
+[ 2017-12-20T18:37:25+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Home/user/showuser.html
+
+[ 2017-12-20T18:38:59+08:00 ] 127.0.0.1 /webapp/index.php/admin/manager/login
+ERR: 模板不存在:D:/php7tpsite/webapp/Admin/View/Home/user/showuser.html
+

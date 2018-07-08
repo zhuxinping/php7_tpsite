@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+foreach使用-一维数组<br>
+name:数组来源<br>
+item:数组值<br>
+key:数组的下标<br>
+<foreach name="arr2" item="val" key="k">
+    {$k}=>{$val}<br>
+</foreach>
+<br>
+<volist name="arr2" id="val" key="k">
+    {$k}=>{$val}<br>
+</volist>
+<br>
+<foreach name="arr3" item="v1">
+   <foreach name="v1" item="v2">
+       {$v2}<br>
+   </foreach>
+</foreach>
+<br>
+<foreach name="arr4" item="val">
+    {$val.name}<br>
+    {$val.from}<br>
+    {$val.age}<br>
+</foreach>
+<br>
+<volist name="arr3" id="v1">
+    <volist name="v1" id="v2">
+        {$v2}<br>
+    </volist>
+</volist>
+<br>
+<volist name="arr4" id="val">
+    {$val.name}<br>
+    {$val.from}<br>
+    {$val.age}<br>
+</volist>
+</body>
+</html>
